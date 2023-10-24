@@ -11,6 +11,13 @@
 		6E92B6032AE85DC500C95F3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E92B6022AE85DC500C95F3C /* ContentView.swift */; };
 		6E92B6052AE85DC600C95F3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E92B6042AE85DC600C95F3C /* Assets.xcassets */; };
 		6E92B6082AE85DC600C95F3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E92B6072AE85DC600C95F3C /* Preview Assets.xcassets */; };
+		6E92B6112AE85EEF00C95F3C /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E92B6102AE85EEF00C95F3C /* Task.swift */; };
+		6E92B6132AE8619A00C95F3C /* TaskGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E92B6122AE8619A00C95F3C /* TaskGroup.swift */; };
+		6E92B6152AE8631000C95F3C /* TaskSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E92B6142AE8631000C95F3C /* TaskSection.swift */; };
+		6E92B6172AE8657300C95F3C /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E92B6162AE8657300C95F3C /* SidebarView.swift */; };
+		6E92B6192AE865A400C95F3C /* StaticTaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E92B6182AE865A400C95F3C /* StaticTaskListView.swift */; };
+		6E92B61B2AE872B500C95F3C /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E92B61A2AE872B500C95F3C /* TaskListView.swift */; };
+		6E92B61D2AE8741E00C95F3C /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E92B61C2AE8741E00C95F3C /* TaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,13 @@
 		6E92B6042AE85DC600C95F3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E92B6072AE85DC600C95F3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6E92B6092AE85DC600C95F3C /* Task_Away.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Task_Away.entitlements; sourceTree = "<group>"; };
+		6E92B6102AE85EEF00C95F3C /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		6E92B6122AE8619A00C95F3C /* TaskGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroup.swift; sourceTree = "<group>"; };
+		6E92B6142AE8631000C95F3C /* TaskSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSection.swift; sourceTree = "<group>"; };
+		6E92B6162AE8657300C95F3C /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		6E92B6182AE865A400C95F3C /* StaticTaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTaskListView.swift; sourceTree = "<group>"; };
+		6E92B61A2AE872B500C95F3C /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		6E92B61C2AE8741E00C95F3C /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +66,16 @@
 		6E92B5FF2AE85DC500C95F3C /* Task Away */ = {
 			isa = PBXGroup;
 			children = (
+				6E92B60F2AE85ED600C95F3C /* Model */,
 				6E92B6002AE85DC500C95F3C /* Task_AwayApp.swift */,
 				6E92B6022AE85DC500C95F3C /* ContentView.swift */,
 				6E92B6042AE85DC600C95F3C /* Assets.xcassets */,
 				6E92B6092AE85DC600C95F3C /* Task_Away.entitlements */,
 				6E92B6062AE85DC600C95F3C /* Preview Content */,
+				6E92B6162AE8657300C95F3C /* SidebarView.swift */,
+				6E92B6182AE865A400C95F3C /* StaticTaskListView.swift */,
+				6E92B61A2AE872B500C95F3C /* TaskListView.swift */,
+				6E92B61C2AE8741E00C95F3C /* TaskView.swift */,
 			);
 			path = "Task Away";
 			sourceTree = "<group>";
@@ -67,6 +86,16 @@
 				6E92B6072AE85DC600C95F3C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6E92B60F2AE85ED600C95F3C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E92B6102AE85EEF00C95F3C /* Task.swift */,
+				6E92B6122AE8619A00C95F3C /* TaskGroup.swift */,
+				6E92B6142AE8631000C95F3C /* TaskSection.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +168,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E92B61D2AE8741E00C95F3C /* TaskView.swift in Sources */,
+				6E92B6192AE865A400C95F3C /* StaticTaskListView.swift in Sources */,
 				6E92B6032AE85DC500C95F3C /* ContentView.swift in Sources */,
+				6E92B6112AE85EEF00C95F3C /* Task.swift in Sources */,
+				6E92B6152AE8631000C95F3C /* TaskSection.swift in Sources */,
+				6E92B6132AE8619A00C95F3C /* TaskGroup.swift in Sources */,
 				6E92B6012AE85DC500C95F3C /* Task_AwayApp.swift in Sources */,
+				6E92B6172AE8657300C95F3C /* SidebarView.swift in Sources */,
+				6E92B61B2AE872B500C95F3C /* TaskListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +302,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Task Away/Task_Away.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -274,6 +311,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,6 +331,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Task Away/Task_Away.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -301,6 +340,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
